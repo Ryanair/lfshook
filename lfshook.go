@@ -3,10 +3,11 @@ package lfshook
 
 import (
 	"fmt"
-	"github.com/Sirupsen/logrus"
 	"log"
 	"os"
 	"sync"
+
+	"github.com/Ryanair/logrus"
 )
 
 // We are logging to file, strip colors to make the output more readable
